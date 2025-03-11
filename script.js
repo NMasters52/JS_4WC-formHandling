@@ -1,18 +1,18 @@
 //set up elements needed
 const elements = {
     textInput: document.getElementById('textInput'),
-    charicterCountOutput: document.getElementById("charicterCountOutput")
+    characterCountOutput: document.getElementById("characterCountOutput")
 };
 
 //make a function to incriment Count
 function incrimentCount() {
- let charicterCount =  elements.textInput.value.length;
-    displayCount(charicterCount);
+ let characterCount =  elements.textInput.value.length;
+    displayCount(characterCount);
 }
 
 //make a function to upload the event on screen 
 function displayCount(count) {
-    elements.charicterCountOutput.innerText = count;
+    elements.characterCountOutput.innerText = count;
 }
 
 //make a function to add event listener
