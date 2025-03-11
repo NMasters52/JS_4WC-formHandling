@@ -5,7 +5,7 @@ const elements = {
 };
 
 //make a function to incriment Count
-function incrimentCount() {
+function incrementCount() {
  let characterCount =  elements.textInput.value.length;
     displayCount(characterCount);
 }
@@ -17,7 +17,7 @@ function displayCount(count) {
 
 //make a function to add event listener
 function initializeApp() {
-    elements.textInput.addEventListener('input', incrimentCount);
+    elements.textInput.addEventListener('input', incrementCount);
     displayCount(0);
 }
 
